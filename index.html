@@ -84,7 +84,7 @@ angular.module("Resume", ["ngMaterial"]).component("resume", {
                     </ul>
                     </p>
                     <p><b>Computing skills</b><br>
-                        <ul style="list-style-type:circle;">
+                        <ul style="list-style-type:circle;list-style-position:inside;padding-left: 0;">
                             <li>Java, Perl, Python</li>
                             <li> Redis, ELK</li>
                             <li>Confluence, Perforce</li>
@@ -92,11 +92,12 @@ angular.module("Resume", ["ngMaterial"]).component("resume", {
                         </ul>
                     </p>
                     <p><b>Misc</b><br>
-                        Team lead<br>
-                        Team Vision and Work Planning<br>
-                        Project Management<br>
-                        Interviewing/Hiring<br>
-                        Mentoring<br>
+                        <ul style="list-style-type:circle;list-style-position:inside;padding-left: 0;">
+                            <li>Team lead</li>
+                            <li>Team Vision and Work Planning</li>
+                            <li>Project Management</li>
+                            <li>Interviewing/Hiring</li>
+                            <li>Mentoring</li>
                     </p>
                 </sidebar-category>
             </resume-column>
