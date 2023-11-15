@@ -78,12 +78,13 @@ angular.module("Resume", ["ngMaterial"]).component("resume", {
                     <p><b>'GPU-Build' Infrastructure</b><br>
                     <ul style="list-style-type:circle;padding-left:0.5em;">
                         <li>Genie, Stepstone, Pull model, Crystal, IPLite</li>
-                        <li>JobScheduler, Farm, BuildDB, Assay Lint</li>
-                        <li>Configuration management</li>
+                        <li>JobScheduler, Farm, Assay Lint</li>
+                        <li>Configu Parser, Crucible, Autosubmit</li>
                         <li>Code search</li>
-                        <li>Coarse/Fine grain build</li>
+                        <li>Hardware specification - Ness, Viva</li>
+                        <li>Coarse/Fine grain build - Tmake</li>
                         <li>Distributed computing system (LSF)</li>
-                        <li>Perforce Client Manager</li>
+                        <li>Perforce Client Manager - Crucibke</li>
                         <li>make based build system</li>
                         <li>Directed Acycilic Graph Processor</li>
                         <li>BuildDB</li>
@@ -91,7 +92,7 @@ angular.module("Resume", ["ngMaterial"]).component("resume", {
                     </p>
                     <p><b>Computing skills</b><br>
                         <ul style="list-style-type:circle;padding-left:0.5em;">
-                            <li>Java, Perl, Python, make</li>
+                            <li>Java, C++, Perl, Python, make</li>
                             <li> Redis, ELK</li>
                             <li>Confluence, Perforce</li>
                             <li>System/Class design</li>
@@ -124,23 +125,26 @@ angular.module("Resume", ["ngMaterial"]).component("resume", {
                     <category-item title="Senior Software Architect" subtitle="NVIDIA Graphics Pvt LTD, Bangalore, India ">
                         <p>
                             <li>Led the Bangalore team of Hardware Infrastructure - Chip Build</li>
+                            <li>Point of contact for build infrastructure needs of design and verification teams across Nvidi</li>
                             <li>Built a channel of tools for lead designers to perform mass scale refactor of GPU design code</li>
                             <li>Worked with multiple groups, i.e. gpu, cpu, nvmobile infrastructure and have good exposure to build workflows</li>
                             <li>Architected the command line interface for Crystal, i.e. Storage and Work deduplication system</li>
                             <li>Worked across infrastrucure teams to provide leadership and consulting on several projects</li>
                             <li>Built a data security layer in OpenGrok to integrate perforce protection rules</li>
-                            <li>Built a system to productionize Opengrok to faciliate code search for big and discrete codebases</li>
                             <li>Deep understanding of tmake/umake(coarse grain build systems), Iplite, Stepstone, Weld and Pull Model</li>
                             <li>Working knowledge of build sub-systems, i.e. BuildDB, JobScheduler and farm</li>
+                            <li>Redesigned the BuildDB system to make it more resilient to failures.</li>
                         </p>
                     </category-item>
                   <p><em>(Jan 2013 – Sept 2015)</em></p>                    
                     <category-item title="Software Architect" subtitle="NVIDIA Graphics Pvt Ltd, Bangalore, India ">
                         <p>
+                            <li>Completed NESS modularization of fermi db which greatly reduced the build time.</li>
                             <li>Built a common build configuration parsing system for gpu and mobile.</li>
                             <li>Added the auto updateable support for perforce client views in Crucible, i.e. P4 client manager</li>
-                            <li>Modularized RTL design code to enable faster fine grain builds</li>
-                            <li>Built a conditional language to provide if-else support in build configuration system.</li>
+                            <li>Implemented and productionized NVGrok, the search platform for big and discrete codebases.</li>
+                            <li>Built a conditional language in ConfigParser to provide if-else support in build configuration system.</li>
+                            <li>Fixed bugs and refined tmake, refactored modules from legacy perl to object oriented perl.</li>
                         </p>
                     </category-item>
                   <p><em>(July 2011 – December 2013)</em></p>                    
